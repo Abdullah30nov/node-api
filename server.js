@@ -5,7 +5,8 @@ require('dotenv').config();
 const PPORT = process.env.PORT || 3300
 const obj = [
     {
-        "helo":"knkn"
+        "helo":"knkn",
+        "age":"20202"
     }
 ]
 app.get('/' , async(req,res)=>{
